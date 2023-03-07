@@ -11,6 +11,7 @@
 		3C3D175A29B6610600D3C86E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3D175929B6610600D3C86E /* ContentView.swift */; };
 		3C3D175C29B6610700D3C86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3D175B29B6610700D3C86E /* Assets.xcassets */; };
 		3C3D175F29B6610700D3C86E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3D175E29B6610700D3C86E /* Preview Assets.xcassets */; };
+		3C3D176629B7CC5B00D3C86E /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3D176529B7CC5B00D3C86E /* TextBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3C3D175929B6610600D3C86E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C3D175B29B6610700D3C86E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C3D175E29B6610700D3C86E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C3D176529B7CC5B00D3C86E /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				3C3D175729B6610600D3C86E /* SwiftfulThinkingBootcampApp.swift */,
 				3C3D175929B6610600D3C86E /* ContentView.swift */,
+				3C3D176529B7CC5B00D3C86E /* TextBootcamp.swift */,
 				3C3D175B29B6610700D3C86E /* Assets.xcassets */,
 				3C3D175D29B6610700D3C86E /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C3D175A29B6610600D3C86E /* ContentView.swift in Sources */,
+				3C3D176629B7CC5B00D3C86E /* TextBootcamp.swift in Sources */,
 				3C3D175829B6610600D3C86E /* SwiftfulThinkingBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
