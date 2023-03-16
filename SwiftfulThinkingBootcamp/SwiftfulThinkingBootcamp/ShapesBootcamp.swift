@@ -20,8 +20,8 @@ struct ShapesBootcamp: View {
 //            .stroke(Color.cyan)
 //            .stroke(Color.brown, lineWidth: 30)
 //            .stroke(.orange, style: StrokeStyle(lineWidth: 30, lineCap: .round, dash: [30]))
-            .trim(from: 0.5, to: 1.0)
-            .stroke(.purple, lineWidth: 50)
+//            .trim(from: 0.5, to: 1.0)
+//            .stroke(.purple, lineWidth: 50)
         
             // for ellipse
             .frame(width: 300, height: 200)
