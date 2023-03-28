@@ -11,7 +11,7 @@ struct TextBootcamp: View {
     var body: some View {
         Text("Hello, World! this is the Swiftful Thinking Bootcamp. I am really enjoying this course and learning alot.".capitalized)
             //.font(.body)
-            //.fontWeight(.semibold)
+//            .fontWeight(.semibold)
             //.bold()
             //.underline()
             //.underline(true, color: .red)
