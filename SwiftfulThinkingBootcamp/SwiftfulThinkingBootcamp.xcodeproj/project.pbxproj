@@ -27,6 +27,7 @@
 		3C5EC89E29D73E860034D498 /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5EC89D29D73E860034D498 /* ForEachBootcamp.swift */; };
 		3C5EC8A029D749CC0034D498 /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5EC89F29D749CC0034D498 /* ScrollViewBootcamp.swift */; };
 		3CEBCC7729CA0EBE00D67812 /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEBCC7629CA0EBE00D67812 /* IconsBootcamp.swift */; };
+		3CF57DDC29D8A90F001B8CC6 /* ButtonsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF57DDB29D8A90F001B8CC6 /* ButtonsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		3C5EC89D29D73E860034D498 /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 		3C5EC89F29D749CC0034D498 /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
 		3CEBCC7629CA0EBE00D67812 /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
+		3CF57DDB29D8A90F001B8CC6 /* ButtonsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				3C5EC89F29D749CC0034D498 /* ScrollViewBootcamp.swift */,
 				3C5866EF29D7577600B0522D /* GridBootcamp.swift */,
 				3C5866F129D7814A00B0522D /* SafeAreaBootcamp.swift */,
+				3CF57DDB29D8A90F001B8CC6 /* ButtonsBootcamp.swift */,
 				3C3D175B29B6610700D3C86E /* Assets.xcassets */,
 				3C3D175D29B6610700D3C86E /* Preview Content */,
 			);
@@ -193,6 +196,7 @@
 				3C03F3EB29D1F45C00512FC9 /* PaddingBootcamp.swift in Sources */,
 				3C3FE44629D46B59007F97B1 /* InitializerBootcamp.swift in Sources */,
 				3C3D176829C39D1D00D3C86E /* ShapesBootcamp.swift in Sources */,
+				3CF57DDC29D8A90F001B8CC6 /* ButtonsBootcamp.swift in Sources */,
 				3C5866F229D7814A00B0522D /* SafeAreaBootcamp.swift in Sources */,
 				3C3D175A29B6610600D3C86E /* ContentView.swift in Sources */,
 				3C5EC89E29D73E860034D498 /* ForEachBootcamp.swift in Sources */,
