@@ -30,6 +30,7 @@
 		3C8346B629DC70B500540BB5 /* ExtractedFunctionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8346B529DC70B500540BB5 /* ExtractedFunctionsBootcamp.swift */; };
 		3C8346B829DC78A200540BB5 /* ExtractSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8346B729DC78A200540BB5 /* ExtractSubviewsBootcamp.swift */; };
 		3C8346BA29DC7FFD00540BB5 /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8346B929DC7FFD00540BB5 /* BindingBootcamp.swift */; };
+		3C8346BC29DC8ACF00540BB5 /* ConditionalBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8346BB29DC8ACF00540BB5 /* ConditionalBootcamp.swift */; };
 		3CEBCC7729CA0EBE00D67812 /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEBCC7629CA0EBE00D67812 /* IconsBootcamp.swift */; };
 		3CF57DDC29D8A90F001B8CC6 /* ButtonsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF57DDB29D8A90F001B8CC6 /* ButtonsBootcamp.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		3C8346B529DC70B500540BB5 /* ExtractedFunctionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionsBootcamp.swift; sourceTree = "<group>"; };
 		3C8346B729DC78A200540BB5 /* ExtractSubviewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsBootcamp.swift; sourceTree = "<group>"; };
 		3C8346B929DC7FFD00540BB5 /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
+		3C8346BB29DC8ACF00540BB5 /* ConditionalBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBootcamp.swift; sourceTree = "<group>"; };
 		3CEBCC7629CA0EBE00D67812 /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 		3CF57DDB29D8A90F001B8CC6 /* ButtonsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 				3C8346B529DC70B500540BB5 /* ExtractedFunctionsBootcamp.swift */,
 				3C8346B729DC78A200540BB5 /* ExtractSubviewsBootcamp.swift */,
 				3C8346B929DC7FFD00540BB5 /* BindingBootcamp.swift */,
+				3C8346BB29DC8ACF00540BB5 /* ConditionalBootcamp.swift */,
 				3C3D175B29B6610700D3C86E /* Assets.xcassets */,
 				3C3D175D29B6610700D3C86E /* Preview Content */,
 			);
@@ -221,6 +224,7 @@
 				3C8346BA29DC7FFD00540BB5 /* BindingBootcamp.swift in Sources */,
 				3C03F3ED29D20DB400512FC9 /* SpacerBootcamp.swift in Sources */,
 				3C5866F029D7577600B0522D /* GridBootcamp.swift in Sources */,
+				3C8346BC29DC8ACF00540BB5 /* ConditionalBootcamp.swift in Sources */,
 				3C03F3E329CB56DD00512FC9 /* ImageBootcamp.swift in Sources */,
 				3CEBCC7729CA0EBE00D67812 /* IconsBootcamp.swift in Sources */,
 			);
