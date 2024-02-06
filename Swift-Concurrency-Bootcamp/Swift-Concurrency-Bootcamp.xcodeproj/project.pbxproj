@@ -13,6 +13,7 @@
 		3C6E46EF2B6BFF1700F4BB53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6E46EE2B6BFF1700F4BB53 /* Preview Assets.xcassets */; };
 		3C6E46F62B6C010200F4BB53 /* 1-DoTryCatchThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6E46F52B6C010200F4BB53 /* 1-DoTryCatchThrows.swift */; };
 		3C6E46F82B7131EC00F4BB53 /* 2-DownloadingImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6E46F72B7131EC00F4BB53 /* 2-DownloadingImageAsync.swift */; };
+		3C6E46FD2B726F3100F4BB53 /* 3-HowToUseAsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6E46FC2B726F3100F4BB53 /* 3-HowToUseAsyncAwait.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		3C6E46EE2B6BFF1700F4BB53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C6E46F52B6C010200F4BB53 /* 1-DoTryCatchThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1-DoTryCatchThrows.swift"; sourceTree = "<group>"; };
 		3C6E46F72B7131EC00F4BB53 /* 2-DownloadingImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-DownloadingImageAsync.swift"; sourceTree = "<group>"; };
+		3C6E46FC2B726F3100F4BB53 /* 3-HowToUseAsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-HowToUseAsyncAwait.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3C6E46E92B6BFF1600F4BB53 /* ContentView.swift */,
 				3C6E46F52B6C010200F4BB53 /* 1-DoTryCatchThrows.swift */,
 				3C6E46F72B7131EC00F4BB53 /* 2-DownloadingImageAsync.swift */,
+				3C6E46FC2B726F3100F4BB53 /* 3-HowToUseAsyncAwait.swift */,
 				3C6E46EB2B6BFF1700F4BB53 /* Assets.xcassets */,
 				3C6E46ED2B6BFF1700F4BB53 /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C6E46F82B7131EC00F4BB53 /* 2-DownloadingImageAsync.swift in Sources */,
+				3C6E46FD2B726F3100F4BB53 /* 3-HowToUseAsyncAwait.swift in Sources */,
 				3C6E46EA2B6BFF1600F4BB53 /* ContentView.swift in Sources */,
 				3C6E46E82B6BFF1600F4BB53 /* Swift_Concurrency_BootcampApp.swift in Sources */,
 				3C6E46F62B6C010200F4BB53 /* 1-DoTryCatchThrows.swift in Sources */,
