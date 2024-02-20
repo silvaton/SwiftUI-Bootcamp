@@ -13,26 +13,31 @@ final class SignInEmailViewModel: ObservableObject {
     @Published var email = ""
     @Published var password = ""
     
-    func signIn() {
+    func signUp() async throws {
         guard !email.isEmpty, !password.isEmpty else {
             print("No email or password found.")
             return
         }
         
-        Task {
-            do {
-                let returnedUserData = try await AuthenticationManager.shared.createUser(email: email, password: password)
-                print("Success")
-                print(returnedUserData)
-            } catch {
-                print("Error: \(error)")
-            }
+        //let returnedUserData = try await AuthenticationManager.shared.createUser(email: email, password: password)
+        // because I've added the @discardableResults I changed the code for this: ( we might use or not the results we get from the method)
+        try await AuthenticationManager.shared.createUser(email: email, password: password)
+
+    }
+    
+    func signIn() async throws {
+        guard !email.isEmpty, !password.isEmpty else {
+            print("No email or password found.")
+            return
         }
+        try await AuthenticationManager.shared.signInUser(email: email, password: password)
     }
 }
 
 struct SignInEmailView: View {
     @StateObject private var viewModel = SignInEmailViewModel()
+    @Binding var showSignInView: Bool
+    
     
     var body: some View {
         VStack {
@@ -46,16 +51,34 @@ struct SignInEmailView: View {
                 .background(.gray.opacity(0.4))
                 .clipShape(RoundedRectangle(cornerRadius: 10))
             
-            Button {
-                viewModel.signIn()
-            } label: {
-                Text("Sign In")
-                    .font(.headline)
-                    .foregroundStyle(.white)
-                    .frame(height: 55)
-                    .frame(maxWidth: .infinity)
-                    .background(.blue)
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
+            HStack {
+                Button {
+                    Task {
+                        do {
+                            try await viewModel.signUp()
+                            showSignInView = false
+                            return
+                        } catch {
+                            print(error)
+                        }
+                        
+                        do {
+                            try await viewModel.signIn()
+                            showSignInView = false
+                            return
+                        } catch {
+                            print(error)
+                        }
+                    }
+                } label: {
+                    Text("Sign In")
+                        .font(.headline)
+                        .foregroundStyle(.white)
+                        .frame(height: 55)
+                        .frame(maxWidth: .infinity)
+                        .background(.blue)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                }
             }
             Spacer()
         }
@@ -66,6 +89,6 @@ struct SignInEmailView: View {
 
 #Preview {
     NavigationStack {
-        SignInEmailView()
+        SignInEmailView(showSignInView: .constant(false))
     }
 }
