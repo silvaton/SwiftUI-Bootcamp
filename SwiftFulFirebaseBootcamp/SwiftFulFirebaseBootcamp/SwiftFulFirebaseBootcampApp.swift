@@ -11,24 +11,26 @@ import Firebase
 @main
 struct SwiftFulFirebaseBootcampApp: App {
     
-    /// the code below is not being used because we are going to use the default implementation for swiftUI
-    // @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    /// the code below is not being used because we are going to use the AppDelegate
+//    init() {
+//        FirebaseApp.configure()
+//        print("Configured Firebase!")
+//    }
     
-    init() {
-        FirebaseApp.configure()
-        print("Configured Firebase!")
-    }
+     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                RootView()
+            }
         }
     }
 }
 
 
-// Below you can see how to setup the firebase using the AppDelegate (we won't use it becase we already did it on the code above)
-/*
+// Below you can see how to setup the firebase using the AppDelegate
+
 class AppDelegate: NSObject, UIApplicationDelegate {
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
     FirebaseApp.configure()
@@ -37,5 +39,3 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     return true
   }
 }
-
-*/
