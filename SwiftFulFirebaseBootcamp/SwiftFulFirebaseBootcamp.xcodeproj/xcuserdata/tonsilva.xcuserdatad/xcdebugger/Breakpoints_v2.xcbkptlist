@@ -49,6 +49,36 @@
                   endingLineNumber = "17"
                   offsetFromSymbolStart = "60">
                </Location>
+               <Location
+                  uuid = "0AA90F07-2D5D-41B3-9594-64C008EA1735 - 75f4f8d85f6c9c6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftFulFirebaseBootcamp.SignInEmailViewModel.signUp() async throws -&gt; ()"
+                  moduleName = "SwiftFulFirebaseBootcamp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonsilva/Documents/Education/SwiftUI-Bootcamp/SwiftFulFirebaseBootcamp/SwiftFulFirebaseBootcamp/Authentication/SignInEmailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "0AA90F07-2D5D-41B3-9594-64C008EA1735 - 8237de5349030d2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SwiftFulFirebaseBootcamp.SignInEmailViewModel.signUp() async throws -&gt; ()"
+                  moduleName = "SwiftFulFirebaseBootcamp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tonsilva/Documents/Education/SwiftUI-Bootcamp/SwiftFulFirebaseBootcamp/SwiftFulFirebaseBootcamp/Authentication/SignInEmailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "60">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

@@ -27,6 +27,7 @@
 		3C76EAE22B87BA0100661217 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3C76EAE12B87BA0100661217 /* GoogleSignInSwift */; };
 		3C76EAE62B87BEB000661217 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76EAE52B87BEB000661217 /* Utilities.swift */; };
 		3C76EAE82B87CACB00661217 /* SignInGoogleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76EAE72B87CACB00661217 /* SignInGoogleHelper.swift */; };
+		3C76EAEA2B891ADC00661217 /* SignInAppleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76EAE92B891ADC00661217 /* SignInAppleHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		3C76EAE32B87BA5B00661217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3C76EAE52B87BEB000661217 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		3C76EAE72B87CACB00661217 /* SignInGoogleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInGoogleHelper.swift; sourceTree = "<group>"; };
+		3C76EAE92B891ADC00661217 /* SignInAppleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAppleHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		3C76EAD12B8502F800661217 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				3C76EAE92B891ADC00661217 /* SignInAppleHelper.swift */,
 				3C76EAD82B850D6300661217 /* RootView.swift */,
 				3C76EAD22B85031A00661217 /* AuthenticationView.swift */,
 				3C76EAD42B85047200661217 /* SignInEmailView.swift */,
@@ -226,6 +229,7 @@
 				3C76EAD32B85031A00661217 /* AuthenticationView.swift in Sources */,
 				3C76EAD72B8505EF00661217 /* AuthenticationManager.swift in Sources */,
 				3C76EAE62B87BEB000661217 /* Utilities.swift in Sources */,
+				3C76EAEA2B891ADC00661217 /* SignInAppleHelper.swift in Sources */,
 				3C76EAD52B85047200661217 /* SignInEmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

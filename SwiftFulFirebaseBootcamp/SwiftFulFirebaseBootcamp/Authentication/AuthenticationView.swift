@@ -12,6 +12,9 @@ import GoogleSignInSwift
 
 @MainActor
 final class AuthenticationViewModel: ObservableObject {
+    //@Published var  didSignInWithApple: Bool = false
+    let signInAppleHelper = SignInAppleHelper()
+    
     
     func signInGoogle() async throws {
         let helper = SignInGoogleHelper()
@@ -19,6 +22,27 @@ final class AuthenticationViewModel: ObservableObject {
         try await AuthenticationManager.shared.signInWithGoogle(tokens: tokens)
     }
     
+    func signInApple() async throws {
+        let helper = SignInAppleHelper()
+        let tokens = try await helper.startSignInWithAppleFlow()
+        try await  AuthenticationManager.shared.signInWithApple(tokens: tokens)
+        
+//        signInAppleHelper.startSignInWithAppleFlow { result in
+//            switch result {
+//            case .success(let signInAppleResult):
+//                Task {
+//                    do {
+//                        try await AuthenticationManager.shared.signInWithApple(tokens: signInAppleResult)
+//                        self.didSignInWithApple = true
+//                    } catch {
+//                        
+//                    }
+//                }
+//            case .failure(let error):
+//                print(error)
+//            }
+//        }
+    }
 }
 
 struct AuthenticationView: View {
@@ -43,12 +67,26 @@ struct AuthenticationView: View {
                 Task {
                     do {
                         try await viewModel.signInGoogle()
-                        showingSignInView = false
+                        //showingSignInView = false
                     } catch {
                         print(error)
                     }
                 }
             }
+            Button(action: {
+                Task {
+                    do {
+                        try await viewModel.signInApple()
+                        showingSignInView = false
+                    } catch {
+                        print(error)
+                    }
+                }
+            }, label: {
+                SignInWithAppleButtonViewRepresentable(type: .signIn, style: .black)
+                    .allowsHitTesting(false)
+            })
+            .frame(height: 55)
             
             Spacer()
         }
