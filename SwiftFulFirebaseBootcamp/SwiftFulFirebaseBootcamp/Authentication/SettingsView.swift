@@ -26,6 +26,10 @@ final class SettingsViewModel: ObservableObject {
         try AuthenticationManager.shared.signOut()
     }
     
+    func deleteAccount() async throws {
+        try await AuthenticationManager.shared.delete()
+    }
+    
     func resetPassword() async throws {
         // email should be passed/loaded into this vm in some way (my to-do)
         let authUser = try  AuthenticationManager.shared.getAuthenticatedUser()
@@ -82,6 +86,21 @@ struct SettingsView: View {
                     }
                 }
             }
+            
+            Button(role: .destructive) {
+                Task {
+                    do {
+                        try await viewModel.deleteAccount()
+                        showingSignView = true // add a double check validation
+                    } catch {
+                        print(error)
+                    }
+                }
+            } label: {
+                Text("Delete Account")
+            }
+
+
             if viewModel.authProviders.contains(.email) {
                 emailSection
             }
