@@ -17,7 +17,7 @@ class TaskBootcampViewModel: ObservableObject {
         
         for x in [1,3,5] {
             print("\(x)")
-            try? Task.checkCancellation() // this is a way to check if the task was cancelled and it throws an error 
+            try? Task.checkCancellation() // this is a way to check if the task was cancelled and it throws an error
         }
         do {
             guard let url = URL(string: "https://picsum.photos/1000") else { return }

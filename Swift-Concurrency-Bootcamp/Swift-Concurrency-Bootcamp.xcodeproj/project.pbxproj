@@ -15,6 +15,7 @@
 		3C6E46F82B7131EC00F4BB53 /* 2-DownloadingImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6E46F72B7131EC00F4BB53 /* 2-DownloadingImageAsync.swift */; };
 		3C6E46FD2B726F3100F4BB53 /* 3-HowToUseAsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6E46FC2B726F3100F4BB53 /* 3-HowToUseAsyncAwait.swift */; };
 		3C76EAEC2B8E06C300661217 /* 4-HowToUseTaskAndDotTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76EAEB2B8E06C300661217 /* 4-HowToUseTaskAndDotTask.swift */; };
+		3C76EAEE2B8E3B9E00661217 /* 5-HowToUseAsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76EAED2B8E3B9E00661217 /* 5-HowToUseAsyncLet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		3C6E46F72B7131EC00F4BB53 /* 2-DownloadingImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2-DownloadingImageAsync.swift"; sourceTree = "<group>"; };
 		3C6E46FC2B726F3100F4BB53 /* 3-HowToUseAsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-HowToUseAsyncAwait.swift"; sourceTree = "<group>"; };
 		3C76EAEB2B8E06C300661217 /* 4-HowToUseTaskAndDotTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4-HowToUseTaskAndDotTask.swift"; sourceTree = "<group>"; };
+		3C76EAED2B8E3B9E00661217 /* 5-HowToUseAsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5-HowToUseAsyncLet.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				3C6E46F72B7131EC00F4BB53 /* 2-DownloadingImageAsync.swift */,
 				3C6E46FC2B726F3100F4BB53 /* 3-HowToUseAsyncAwait.swift */,
 				3C76EAEB2B8E06C300661217 /* 4-HowToUseTaskAndDotTask.swift */,
+				3C76EAED2B8E3B9E00661217 /* 5-HowToUseAsyncLet.swift */,
 				3C6E46EB2B6BFF1700F4BB53 /* Assets.xcassets */,
 				3C6E46ED2B6BFF1700F4BB53 /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 				3C6E46F82B7131EC00F4BB53 /* 2-DownloadingImageAsync.swift in Sources */,
 				3C6E46FD2B726F3100F4BB53 /* 3-HowToUseAsyncAwait.swift in Sources */,
 				3C6E46EA2B6BFF1600F4BB53 /* ContentView.swift in Sources */,
+				3C76EAEE2B8E3B9E00661217 /* 5-HowToUseAsyncLet.swift in Sources */,
 				3C6E46E82B6BFF1600F4BB53 /* Swift_Concurrency_BootcampApp.swift in Sources */,
 				3C6E46F62B6C010200F4BB53 /* 1-DoTryCatchThrows.swift in Sources */,
 			);
