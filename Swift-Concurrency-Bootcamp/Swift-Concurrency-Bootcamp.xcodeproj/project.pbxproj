@@ -17,6 +17,7 @@
 		3C76EAEC2B8E06C300661217 /* 4-HowToUseTaskAndDotTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76EAEB2B8E06C300661217 /* 4-HowToUseTaskAndDotTask.swift */; };
 		3C76EAEE2B8E3B9E00661217 /* 5-HowToUseAsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76EAED2B8E3B9E00661217 /* 5-HowToUseAsyncLet.swift */; };
 		3C76EAF02B8E48D300661217 /* 6-HowToUseTaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76EAEF2B8E48D300661217 /* 6-HowToUseTaskGroup.swift */; };
+		3C76EAF22B8E5EAC00661217 /* 7-HowToUserContinuations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76EAF12B8E5EAC00661217 /* 7-HowToUserContinuations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3C76EAEB2B8E06C300661217 /* 4-HowToUseTaskAndDotTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4-HowToUseTaskAndDotTask.swift"; sourceTree = "<group>"; };
 		3C76EAED2B8E3B9E00661217 /* 5-HowToUseAsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5-HowToUseAsyncLet.swift"; sourceTree = "<group>"; };
 		3C76EAEF2B8E48D300661217 /* 6-HowToUseTaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "6-HowToUseTaskGroup.swift"; sourceTree = "<group>"; };
+		3C76EAF12B8E5EAC00661217 /* 7-HowToUserContinuations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7-HowToUserContinuations.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				3C76EAEB2B8E06C300661217 /* 4-HowToUseTaskAndDotTask.swift */,
 				3C76EAED2B8E3B9E00661217 /* 5-HowToUseAsyncLet.swift */,
 				3C76EAEF2B8E48D300661217 /* 6-HowToUseTaskGroup.swift */,
+				3C76EAF12B8E5EAC00661217 /* 7-HowToUserContinuations.swift */,
 				3C6E46EB2B6BFF1700F4BB53 /* Assets.xcassets */,
 				3C6E46ED2B6BFF1700F4BB53 /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C76EAF22B8E5EAC00661217 /* 7-HowToUserContinuations.swift in Sources */,
 				3C76EAF02B8E48D300661217 /* 6-HowToUseTaskGroup.swift in Sources */,
 				3C76EAEC2B8E06C300661217 /* 4-HowToUseTaskAndDotTask.swift in Sources */,
 				3C6E46F82B7131EC00F4BB53 /* 2-DownloadingImageAsync.swift in Sources */,
