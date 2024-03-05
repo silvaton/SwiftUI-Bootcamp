@@ -19,6 +19,7 @@
 		3C76EAF02B8E48D300661217 /* 6-HowToUseTaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76EAEF2B8E48D300661217 /* 6-HowToUseTaskGroup.swift */; };
 		3C76EAF22B8E5EAC00661217 /* 7-HowToUserContinuations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76EAF12B8E5EAC00661217 /* 7-HowToUserContinuations.swift */; };
 		3CDC29A22B8F93320088C93F /* 8-StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC29A12B8F93320088C93F /* 8-StructClassActor.swift */; };
+		3CF943192B976C1E00FD1977 /* 9-HowToUseActors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF943182B976C1E00FD1977 /* 9-HowToUseActors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		3C76EAEF2B8E48D300661217 /* 6-HowToUseTaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "6-HowToUseTaskGroup.swift"; sourceTree = "<group>"; };
 		3C76EAF12B8E5EAC00661217 /* 7-HowToUserContinuations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7-HowToUserContinuations.swift"; sourceTree = "<group>"; };
 		3CDC29A12B8F93320088C93F /* 8-StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "8-StructClassActor.swift"; sourceTree = "<group>"; };
+		3CF943182B976C1E00FD1977 /* 9-HowToUseActors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9-HowToUseActors.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				3C76EAEF2B8E48D300661217 /* 6-HowToUseTaskGroup.swift */,
 				3C76EAF12B8E5EAC00661217 /* 7-HowToUserContinuations.swift */,
 				3CDC29A12B8F93320088C93F /* 8-StructClassActor.swift */,
+				3CF943182B976C1E00FD1977 /* 9-HowToUseActors.swift */,
 				3C6E46EB2B6BFF1700F4BB53 /* Assets.xcassets */,
 				3C6E46ED2B6BFF1700F4BB53 /* Preview Content */,
 			);
@@ -164,6 +167,7 @@
 				3C76EAF22B8E5EAC00661217 /* 7-HowToUserContinuations.swift in Sources */,
 				3CDC29A22B8F93320088C93F /* 8-StructClassActor.swift in Sources */,
 				3C76EAF02B8E48D300661217 /* 6-HowToUseTaskGroup.swift in Sources */,
+				3CF943192B976C1E00FD1977 /* 9-HowToUseActors.swift in Sources */,
 				3C76EAEC2B8E06C300661217 /* 4-HowToUseTaskAndDotTask.swift in Sources */,
 				3C6E46F82B7131EC00F4BB53 /* 2-DownloadingImageAsync.swift in Sources */,
 				3C6E46FD2B726F3100F4BB53 /* 3-HowToUseAsyncAwait.swift in Sources */,
