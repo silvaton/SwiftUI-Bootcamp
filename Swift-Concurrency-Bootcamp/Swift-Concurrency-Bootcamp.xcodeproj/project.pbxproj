@@ -19,6 +19,7 @@
 		3C76EAF02B8E48D300661217 /* 6-HowToUseTaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76EAEF2B8E48D300661217 /* 6-HowToUseTaskGroup.swift */; };
 		3C76EAF22B8E5EAC00661217 /* 7-HowToUserContinuations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C76EAF12B8E5EAC00661217 /* 7-HowToUserContinuations.swift */; };
 		3CA385252B9B296200A59516 /* 12-HowToUseAsyncPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA385242B9B296200A59516 /* 12-HowToUseAsyncPublisher.swift */; };
+		3CA56F3D2B9F5B1700940513 /* 13-StrongSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA56F3C2B9F5B1700940513 /* 13-StrongSelfBootcamp.swift */; };
 		3CB5EFA42B99F38D00DA30B3 /* 11-HowToUseSensableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5EFA32B99F38D00DA30B3 /* 11-HowToUseSensableProtocol.swift */; };
 		3CDC29A22B8F93320088C93F /* 8-StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC29A12B8F93320088C93F /* 8-StructClassActor.swift */; };
 		3CF943192B976C1E00FD1977 /* 9-HowToUseActors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF943182B976C1E00FD1977 /* 9-HowToUseActors.swift */; };
@@ -39,6 +40,7 @@
 		3C76EAEF2B8E48D300661217 /* 6-HowToUseTaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "6-HowToUseTaskGroup.swift"; sourceTree = "<group>"; };
 		3C76EAF12B8E5EAC00661217 /* 7-HowToUserContinuations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7-HowToUserContinuations.swift"; sourceTree = "<group>"; };
 		3CA385242B9B296200A59516 /* 12-HowToUseAsyncPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "12-HowToUseAsyncPublisher.swift"; sourceTree = "<group>"; };
+		3CA56F3C2B9F5B1700940513 /* 13-StrongSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13-StrongSelfBootcamp.swift"; sourceTree = "<group>"; };
 		3CB5EFA32B99F38D00DA30B3 /* 11-HowToUseSensableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11-HowToUseSensableProtocol.swift"; sourceTree = "<group>"; };
 		3CDC29A12B8F93320088C93F /* 8-StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "8-StructClassActor.swift"; sourceTree = "<group>"; };
 		3CF943182B976C1E00FD1977 /* 9-HowToUseActors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9-HowToUseActors.swift"; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				3CF9431A2B989F8900FD1977 /* 10-HowToUseGlobalActor.swift */,
 				3CB5EFA32B99F38D00DA30B3 /* 11-HowToUseSensableProtocol.swift */,
 				3CA385242B9B296200A59516 /* 12-HowToUseAsyncPublisher.swift */,
+				3CA56F3C2B9F5B1700940513 /* 13-StrongSelfBootcamp.swift */,
 				3C6E46EB2B6BFF1700F4BB53 /* Assets.xcassets */,
 				3C6E46ED2B6BFF1700F4BB53 /* Preview Content */,
 			);
@@ -187,6 +190,7 @@
 				3C76EAEE2B8E3B9E00661217 /* 5-HowToUseAsyncLet.swift in Sources */,
 				3C6E46E82B6BFF1600F4BB53 /* Swift_Concurrency_BootcampApp.swift in Sources */,
 				3C6E46F62B6C010200F4BB53 /* 1-DoTryCatchThrows.swift in Sources */,
+				3CA56F3D2B9F5B1700940513 /* 13-StrongSelfBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
