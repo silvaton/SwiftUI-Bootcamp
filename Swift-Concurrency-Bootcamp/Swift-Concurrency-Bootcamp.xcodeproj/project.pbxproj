@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C58F0132BA05F3400DA042B /* 14-MVVMConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C58F0122BA05F3400DA042B /* 14-MVVMConcurrency.swift */; };
 		3C6E46E82B6BFF1600F4BB53 /* Swift_Concurrency_BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6E46E72B6BFF1600F4BB53 /* Swift_Concurrency_BootcampApp.swift */; };
 		3C6E46EA2B6BFF1600F4BB53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6E46E92B6BFF1600F4BB53 /* ContentView.swift */; };
 		3C6E46EC2B6BFF1700F4BB53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6E46EB2B6BFF1700F4BB53 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C58F0122BA05F3400DA042B /* 14-MVVMConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14-MVVMConcurrency.swift"; sourceTree = "<group>"; };
 		3C6E46E42B6BFF1600F4BB53 /* Swift-Concurrency-Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Concurrency-Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6E46E72B6BFF1600F4BB53 /* Swift_Concurrency_BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Concurrency_BootcampApp.swift; sourceTree = "<group>"; };
 		3C6E46E92B6BFF1600F4BB53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				3CB5EFA32B99F38D00DA30B3 /* 11-HowToUseSensableProtocol.swift */,
 				3CA385242B9B296200A59516 /* 12-HowToUseAsyncPublisher.swift */,
 				3CA56F3C2B9F5B1700940513 /* 13-StrongSelfBootcamp.swift */,
+				3C58F0122BA05F3400DA042B /* 14-MVVMConcurrency.swift */,
 				3C6E46EB2B6BFF1700F4BB53 /* Assets.xcassets */,
 				3C6E46ED2B6BFF1700F4BB53 /* Preview Content */,
 			);
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C76EAF22B8E5EAC00661217 /* 7-HowToUserContinuations.swift in Sources */,
+				3C58F0132BA05F3400DA042B /* 14-MVVMConcurrency.swift in Sources */,
 				3CDC29A22B8F93320088C93F /* 8-StructClassActor.swift in Sources */,
 				3C76EAF02B8E48D300661217 /* 6-HowToUseTaskGroup.swift in Sources */,
 				3CF943192B976C1E00FD1977 /* 9-HowToUseActors.swift in Sources */,
