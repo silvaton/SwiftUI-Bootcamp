@@ -26,6 +26,7 @@
 		3CD6D9D22BA5C33D0003D37F /* 16-SearchableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6D9D12BA5C33D0003D37F /* 16-SearchableBootcamp.swift */; };
 		3CD6D9D42BA613810003D37F /* 17-PhotoPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6D9D32BA613810003D37F /* 17-PhotoPickerBootcamp.swift */; };
 		3CD6D9D62BA622250003D37F /* 18-AsyncStreamBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6D9D52BA622250003D37F /* 18-AsyncStreamBootcamp.swift */; };
+		3CD6D9D82BA631110003D37F /* 19-ObservableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD6D9D72BA631110003D37F /* 19-ObservableBootcamp.swift */; };
 		3CDC29A22B8F93320088C93F /* 8-StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC29A12B8F93320088C93F /* 8-StructClassActor.swift */; };
 		3CF943192B976C1E00FD1977 /* 9-HowToUseActors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF943182B976C1E00FD1977 /* 9-HowToUseActors.swift */; };
 		3CF9431B2B989F8900FD1977 /* 10-HowToUseGlobalActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF9431A2B989F8900FD1977 /* 10-HowToUseGlobalActor.swift */; };
@@ -52,6 +53,7 @@
 		3CD6D9D12BA5C33D0003D37F /* 16-SearchableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16-SearchableBootcamp.swift"; sourceTree = "<group>"; };
 		3CD6D9D32BA613810003D37F /* 17-PhotoPickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "17-PhotoPickerBootcamp.swift"; sourceTree = "<group>"; };
 		3CD6D9D52BA622250003D37F /* 18-AsyncStreamBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "18-AsyncStreamBootcamp.swift"; sourceTree = "<group>"; };
+		3CD6D9D72BA631110003D37F /* 19-ObservableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19-ObservableBootcamp.swift"; sourceTree = "<group>"; };
 		3CDC29A12B8F93320088C93F /* 8-StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "8-StructClassActor.swift"; sourceTree = "<group>"; };
 		3CF943182B976C1E00FD1977 /* 9-HowToUseActors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9-HowToUseActors.swift"; sourceTree = "<group>"; };
 		3CF9431A2B989F8900FD1977 /* 10-HowToUseGlobalActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10-HowToUseGlobalActor.swift"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				3CD6D9D12BA5C33D0003D37F /* 16-SearchableBootcamp.swift */,
 				3CD6D9D32BA613810003D37F /* 17-PhotoPickerBootcamp.swift */,
 				3CD6D9D52BA622250003D37F /* 18-AsyncStreamBootcamp.swift */,
+				3CD6D9D72BA631110003D37F /* 19-ObservableBootcamp.swift */,
 				3C6E46EB2B6BFF1700F4BB53 /* Assets.xcassets */,
 				3C6E46ED2B6BFF1700F4BB53 /* Preview Content */,
 			);
@@ -194,6 +197,7 @@
 				3C76EAF22B8E5EAC00661217 /* 7-HowToUserContinuations.swift in Sources */,
 				3C58F0132BA05F3400DA042B /* 14-MVVMConcurrency.swift in Sources */,
 				3CDC29A22B8F93320088C93F /* 8-StructClassActor.swift in Sources */,
+				3CD6D9D82BA631110003D37F /* 19-ObservableBootcamp.swift in Sources */,
 				3C76EAF02B8E48D300661217 /* 6-HowToUseTaskGroup.swift in Sources */,
 				3CD6D9D42BA613810003D37F /* 17-PhotoPickerBootcamp.swift in Sources */,
 				3CF943192B976C1E00FD1977 /* 9-HowToUseActors.swift in Sources */,
